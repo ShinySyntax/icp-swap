@@ -1,18 +1,18 @@
 import React from "react";
 
-const CollateralInput = ({ selectedCollateral, amount, onAmountChange }) => {
+const CollateralInput = ({ selectedCollateral, title, amount, onAmountChange }) => {
   return (
     <div className="bg-blue-900 my-14 p-6 rounded-xl text-white flex flex-col">
       <div>
-        <span className="block text-2xl text-white">Deposit Collateral</span>
+        <span className="block text-2xl text-white">{title}</span>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <input
           type="number"
           value={amount}
           onChange={(e) => onAmountChange(e.target.value)}
           placeholder="0"
-          className="mt-6 text-3xl w-4 font-bold bg-transparent outline-none text-gray-400"
+          className="mt-6 text-2xl w-[250px] font-bold bg-transparent outline-none text-gray-400"
         />
         <div className="flex items-center gap-2">
           <div className="bg-gray-300 w-8 h-8 rounded-full"></div>

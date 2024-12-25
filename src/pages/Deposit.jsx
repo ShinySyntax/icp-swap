@@ -21,7 +21,7 @@ const Deposit = () => {
                 <SingleStatCard title="Total Borrowed" value="$1.625M" />
                 <SingleStatCard title="Total Value Locked" value="8.2%" />
             </div>
-            <CollateralInput selectedCollateral={selectedCollateral} amount={amount} onAmountChange={setAmount} />
+            <CollateralInput selectedCollateral={selectedCollateral} amount={amount} onAmountChange={setAmount} title="Deposit Collateral" />
             <div className="flex justify-between">
                 <CollateralOption
                     name="ICP"
