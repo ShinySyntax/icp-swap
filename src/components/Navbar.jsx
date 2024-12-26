@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className="py-4 flex w-full justify-between h-20">
             <div className="flex w-full justify-between">
-                <div className='flex items-center w-3/5'>
+                <div className='flex items-center w-[100px] md:w-3/5'>
                     <ul className='hidden md:flex w-full justify-between items-center text-[15px] font-bold'>
                         <li className=''>
                             <Link
@@ -64,7 +64,7 @@ const Navbar = () => {
                     </div>
 
                 </div>
-                <div className="flex items-center justify-between w-[200px]">
+                <div className="flex items-center justify-between w-[200px] mr-6">
                     <div className="px-2 py-2 hover:bg-[#1d3d9c] rounded-[7px] ">
                         <img src={setting} className="w-7 h-7" alt="Settings" />
                     </div>

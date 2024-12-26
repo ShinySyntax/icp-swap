@@ -14,7 +14,7 @@ const Deposit = () => {
     };
 
     return (
-        <div className="h-screen">
+        <div className="md:h-screen h-auto">
             <ToggleButton />
             <div className="flex justify-between">
                 <SingleStatCard title="Total Value Locked" value="$2.5M" />
