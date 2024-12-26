@@ -13,7 +13,7 @@ const Borrow = () => {
     };
 
     return (
-        <>
+        <div className="h-screen">
             <ToggleButton />
             <div className="flex justify-between">
                 <SingleStatCard title="Total Value Locked" value="$2.5M" />
@@ -22,7 +22,7 @@ const Borrow = () => {
             </div>
             <CollateralInput selectedCollateral={selectedCollateral} amount={amount} onAmountChange={setAmount} title="Borrow ckUSDC" />
             <SwapButton label="Borrow ckUSDC" onClick={handleDeposit} />
-        </>
+        </div>
     );
 };
 
