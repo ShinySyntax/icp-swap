@@ -14,7 +14,7 @@ const Deposit = () => {
     };
 
     return (
-        <>
+        <div className="h-screen">
             <ToggleButton />
             <div className="flex justify-between">
                 <SingleStatCard title="Total Value Locked" value="$2.5M" />
@@ -55,7 +55,7 @@ const Deposit = () => {
                 />
             </div>
             <SwapButton label="Deposit Collateral" onClick={handleDeposit} />
-        </>
+        </div>
     );
 };
 
