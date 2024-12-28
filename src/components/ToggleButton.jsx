@@ -4,7 +4,7 @@ const ToggleButton = () => {
   const [active, setActive] = useState("Normal");
 
   return (
-    <div className="flex my-14 justify-center items-center bg-blue-900 p-2 rounded-xl">
+    <div className="flex my-5 justify-center items-center bg-blue-900 p-2 rounded-xl">
       <button
         className={`px-4 py-2 text-white font-medium rounded-md w-1/2 ${
           active === "Normal" ? "bg-blue-600" : "bg-transparent"
