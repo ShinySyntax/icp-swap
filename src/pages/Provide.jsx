@@ -17,7 +17,7 @@ const Provide = () => {
                 <SingleStatCard title="Total Borrowed" value="$1.625M" />
                 <SingleStatCard title="Total Value Locked" value="8.2%" />
             </div>
-            <div className="bg-blue-900 p-6 rounded-xl shadow-md w-full mt-10">
+            <div className="bg-blue-900 p-6 rounded-xl shadow-md w-full mt-5">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-8">
                     <h2 className="text-white text-lg font-semibold">Provide Liquidity (ckUSDC)</h2>

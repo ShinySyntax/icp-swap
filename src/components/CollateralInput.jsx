@@ -2,7 +2,7 @@ import React from "react";
 
 const CollateralInput = ({ selectedCollateral, title, amount, onAmountChange }) => {
   return (
-    <div className="bg-blue-900 my-14 p-6 rounded-xl text-white flex flex-col">
+    <div className="bg-blue-900 my-5 p-6 rounded-xl text-white flex flex-col">
       <div>
         <span className="block text-2xl text-white">{title}</span>
       </div>
